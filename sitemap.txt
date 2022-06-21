@@ -1,0 +1,4 @@
+http://example.com/2022/06/21/cross-build-Electron-for-LoongArch/
+http://example.com/
+http://example.com/tags/Electron/
+http://example.com/categories/Electron/

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  <!-- Color theme for statusbar -->
+  <meta name="theme-color" content="#000000" />
+  <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  <title>Hexo</title>
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  <!-- Canonical links -->
+  <link rel="canonical" href="http://example.com/index.html">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+  
+  
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+
+<body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage">
+  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="slimContent">
+    <div class="navbar-header">
+      
+      
+      <div class="profile-block text-center">
+        <a id="avatar" href="https://github.com/Xiao-Tao" target="_blank">
+          <img class="img-circle img-rotate" src="/images/avatar.jpeg" width="200" height="200">
+        </a>
+        <h2 id="name" class="hidden-xs hidden-sm">mingtaoxt</h2>
+        <h3 id="title" class="hidden-xs hidden-sm hidden-md">系统开发</h3>
+        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Nanjing, China</small>
+      </div>
+      
+      <div class="search" id="search-form-wrap">
+
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="搜索" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button>
+            </span>
+        </div>
+    </form>
+    <div class="ins-search">
+  <div class="ins-search-mask"></div>
+  <div class="ins-search-container">
+    <div class="ins-input-wrapper">
+      <input type="text" class="ins-search-input" placeholder="想要查找什么..." x-webkit-speech />
+      <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    </div>
+    <div class="ins-section-wrapper">
+      <div class="ins-section-container"></div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+      <ul class="nav navbar-nav main-nav ">
+        
+        
+        <li class="menu-item menu-item-home">
+          <a href="/.">
+            
+            <i class="icon icon-home-fill"></i>
+            
+            <span class="menu-title">首页</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives">
+            
+            <i class="icon icon-archives-fill"></i>
+            
+            <span class="menu-title">归档</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories">
+            
+            <i class="icon icon-folder"></i>
+            
+            <span class="menu-title">分类</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags">
+            
+            <i class="icon icon-tags"></i>
+            
+            <span class="menu-title">标签</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-repository">
+          <a href="/repository">
+            
+            <i class="icon icon-project"></i>
+            
+            <span class="menu-title">项目</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about">
+            
+            <i class="icon icon-cup-fill"></i>
+            
+            <span class="menu-title">关于</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/Xiao-Tao" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+        <li><a href="http://weibo.com/Xiao-Tao" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+        
+        <li><a href="https://twitter.com/iwebued" target="_blank" title="Twitter" data-toggle=tooltip data-placement=top><i class="icon icon-twitter"></i></a></li>
+        
+        <li><a href="https://www.behance.net/Xiao-Tao" target="_blank" title="Behance" data-toggle=tooltip data-placement=top><i class="icon icon-behance"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
+
+    </nav>
+  </div>
+</header>
+
+  
+    <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">公告</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content">
+                <p>欢迎交流与分享经验!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget-body">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Electron/">Electron</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget-body">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electron/" rel="tag">Electron</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget-body tagcloud">
+      <a href="/tags/Electron/" style="font-size: 13px;">Electron</a>
+    </div>
+  </div>
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget-body">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/06/">六月 2022</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget-body">
+      <ul class="recent-post-list list-unstyled no-thumbnail">
+        
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/Electron/">Electron</a>
+              </p>
+              <p class="item-title">
+                <a href="/2022/06/21/cross-build-Electron-for-LoongArch/" class="title">交叉编译LoongArch架构下的Electron</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2022-06-21T06:34:05.575Z" itemprop="datePublished">2022-06-21</time>
+              </p>
+            </div>
+          </li>
+          
+      </ul>
+    </div>
+  </div>
+  
+
+    
+  </div>
+</aside>
+
+  
+  <main class="main" role="main">
+  
+  
+    <div class="content">
+  <article id="post-cross-build-Electron-for-LoongArch" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2022/06/21/cross-build-Electron-for-LoongArch/">交叉编译LoongArch架构下的Electron</a>
+    </h1>
+  
+
+      
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2022/06/21/cross-build-Electron-for-LoongArch/" class="article-date">
+	  <time datetime="2022-06-21T06:34:05.575Z" itemprop="datePublished">2022-06-21</time>
+	</a>
+</span>
+        
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/Electron/">Electron</a>
+  </span>
+
+        
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link-link" href="/tags/Electron/" rel="tag">Electron</a>
+  </span>
+
+
+        
+	<span class="article-read hidden-xs">
+	    <i class="icon icon-eye-fill" aria-hidden="true"></i>
+	    <span id="busuanzi_container_page_pv">
+			<span id="busuanzi_value_page_pv">0</span>
+		</span>
+	</span>
+
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/06/21/cross-build-Electron-for-LoongArch/#comments" class="article-comment-link">评论</a></span>
+        
+	
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 3.4k(字)</span>
+	
+	
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 15(分)</span>
+	
+
+      </div>
+    </div>
+    <div class="article-entry marked-body" itemprop="articleBody">
+      
+        <h1 id="1-介绍"><a class="markdownIt-Anchor" href="#1-介绍"></a> 1. 介绍</h1>
+<p>本文打算从环境配置，获取源代码，编译，测试，使用五个方面初步描述了 LoongArch 架构下 Electron 的交叉编译。由于chromium版本更新速度极快，且对C++新特性的应用较激进，本文档使用的 clang/llvm 落后于官方所提供的版本，存在部分编译参数不兼容的问题。</p>
+<p>本文主要参考Electron官方文档中 <strong><a target="_blank" rel="noopener" href="https://www.electronjs.org/zh/docs/latest/development/build-instructions-gn">构建说明</a></strong> 和 <strong><a target="_blank" rel="noopener" href="https://www.electronjs.org/zh/docs/latest/development/build-instructions-linux">构建步骤（Linux）</a></strong> 。</p>
+<h1 id="2-编译环境准备"><a class="markdownIt-Anchor" href="#2-编译环境准备"></a> 2. 编译环境准备</h1>
+<p>由于本地环境千差万别，Electron的编译所需依赖也比较复杂，为了不让Electron的编译大计毁于配置环境这一步，所以决定偷懒使用官方提供的docker镜像，这样可以避免编译过程中大部分环境上的问题，且不用当心依赖的版本问题，代价是需要学会几条 docker 命令。<br />
+Electron官方提供了编译环境的docker镜像：<a target="_blank" rel="noopener" href="https://github.com/electron/build-images/pkgs/container/build">https://github.com/electron/build-images/pkgs/container/build</a></p>
+<p>由于官方提供的clang/llvm 目前并不支持 LoongArch 架构，所以还得准备一套支持 LoongArch架构的编译工具。<br />
+LoongArch llvm-project源码仓库：<a target="_blank" rel="noopener" href="https://github.com/loongson/llvm-project.git">https://github.com/loongson/llvm-project.git</a></p>
+<h2 id="21-安装docker"><a class="markdownIt-Anchor" href="#21-安装docker"></a> 2.1 安装docker</h2>
+<p>安装docker这一步，有大量优质且易懂的文章进行说明，可以参考以下链接中的安装方式，这里不再赘述。<br />
+docker安装参考：<a target="_blank" rel="noopener" href="https://yeasy.gitbook.io/docker_practice/install">https://yeasy.gitbook.io/docker_practice/install</a></p>
+<h2 id="22-获取构建环境镜像"><a class="markdownIt-Anchor" href="#22-获取构建环境镜像"></a> 2.2 获取构建环境镜像</h2>
+<p>此镜像由Electron官方仓库中的 <a target="_blank" rel="noopener" href="https://github.com/electron/build-images">build-images</a> 子项目提供</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ docker pull ghcr.io/electron/build:latest</span><br><span class="line"><span class="comment"># 将docker的用户家目录映射到本机存放数据的目录，这样方便数据交换</span></span><br><span class="line">$ docker run -dit -P --name electron-build --mount <span class="built_in">type</span>=<span class="built_in">bind</span>,<span class="built_in">source</span>=/home/loongson/docker-data,target=/home/builduser ghcr.io/electron/build:latest</span><br><span class="line"><span class="comment"># 进入docker 环境，接下来除了测试的操作，都在docker内完成</span></span><br><span class="line">$ docker <span class="built_in">exec</span> -it electron-build bash</span><br></pre></td></tr></table></figure>
+<p><strong>接下来除了测试等操作，都编译过程都将在docker内完成</strong></p>
+<h2 id="23-编译-clangllvm"><a class="markdownIt-Anchor" href="#23-编译-clangllvm"></a> 2.3 编译 clang/llvm</h2>
+<p>Electron目前默认使用clang/llvm进行编译，现在</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt update</span><br><span class="line">$ sudo apt install cmake ninja-build</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/loongson/llvm-project.git</span><br><span class="line">$ <span class="built_in">cd</span> llvm-project</span><br><span class="line">$ <span class="built_in">mkdir</span> _build &amp;&amp; <span class="built_in">cd</span> _build</span><br><span class="line">$ cmake  -DCMAKE_VERBOSE_MAKEFILE=ON  -DCMAKE_BUILD_TYPE=<span class="string">&quot;Release&quot;</span> -DCMAKE_INSTALL_PREFIX=<span class="string">&quot;~/llvm_install_bin&quot;</span> \</span><br><span class="line">../llvm -G Ninja  -DLLVM_ENABLE_PROJECTS=<span class="string">&quot;clang&quot;</span>  -DLLVM_INCLUDE_TOOLS=ON \</span><br><span class="line">-DLLVM_BUILD_TOOLS=ON  -DLLVM_INCLUDE_UTILS=ON  -DLLVM_BUILD_UTILS=ON \</span><br><span class="line">-DLLVM_INCLUDE_RUNTIMES=ON  -DLLVM_BUILD_RUNTIME=ON  -DLLVM_BUILD_LLVM_DYLIB=ON  \</span><br><span class="line">-DLLVM_LINK_LLVM_DYLIB=ON -DLLVM_ENABLE_ZLIB=ON  -DLLVM_ENABLE_FFI=ON  -DLLVM_ENABLE_RTTI=ON</span><br><span class="line"></span><br><span class="line">$ ninja </span><br><span class="line">$ ninja -v install</span><br></pre></td></tr></table></figure>
+<h2 id="24-获取交叉工具链的链接器"><a class="markdownIt-Anchor" href="#24-获取交叉工具链的链接器"></a> 2.4 获取交叉工具链的链接器</h2>
+<p>由于系统的链接器无法链接loongarch64架构的二进制，手动制作一个交叉工具链比较麻烦，这里再次偷懒用 loongson/build-tools 里面带的交叉工具链的链接器。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ wget https://github.com/loongson/build-tools/releases/download/2022.05.29/loongarch64-clfs-5.0-cross-tools-gcc-glibc.tar.xz</span><br><span class="line">$ tar -xf loongarch64-clfs-5.0-cross-tools-gcc-glibc.tar.xz</span><br><span class="line">$ sudo <span class="built_in">cp</span> cross-tools/bin/loongarch64-unknown-linux-gnu-ld /usr/bin/loongarch64-linux-gnu-ld</span><br><span class="line">$ sudo <span class="built_in">cp</span> cross-tools/bin/loongarch64-unknown-linux-gnu-ld.bfd /usr/bin/loongarch64-linux-gnu-ld.bfd</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看动态库搜索路径</span></span><br><span class="line">$ ./loongarch64-unknown-linux-gnu-ld --verbose | grep SEARCH_DIR | <span class="built_in">tr</span> -s <span class="string">&#x27; ;&#x27;</span> \\n</span><br><span class="line">SEARCH_DIR(<span class="string">&quot;=/opt/cross-tools/loongarch64-unknown-linux-gnu/lib64&quot;</span>)</span><br><span class="line">SEARCH_DIR(<span class="string">&quot;=/usr/local/lib64&quot;</span>)</span><br><span class="line">SEARCH_DIR(<span class="string">&quot;=/lib64&quot;</span>)</span><br><span class="line">SEARCH_DIR(<span class="string">&quot;=/usr/lib64&quot;</span>)</span><br><span class="line">SEARCH_DIR(<span class="string">&quot;=/opt/cross-tools/loongarch64-unknown-linux-gnu/lib&quot;</span>)</span><br><span class="line">SEARCH_DIR(<span class="string">&quot;=/usr/local/lib&quot;</span>)</span><br><span class="line">SEARCH_DIR(<span class="string">&quot;=/lib&quot;</span>)</span><br><span class="line">SEARCH_DIR(<span class="string">&quot;=/usr/lib&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p>完成上面一步几个配置，基本上Electron的编译环境就已经搭建好了，接下来就可以拉取代码，然后编译Electron了。</p>
+<h1 id="3-拉取代码"><a class="markdownIt-Anchor" href="#3-拉取代码"></a> 3. 拉取代码</h1>
+<p>拉取代码可以通过官方文档提供的方法来获取，也可以使用Electron官方仓库中的 <a target="_blank" rel="noopener" href="https://github.com/electron/build-tools">build-tools</a>  (<strong>此build-tools非上面那个下载交叉工具链和clfs系统的build-tools，虽然他们名字相同，是不同的项目</strong>)子项目中的工具来完成代码的获取。<br />
+既然有更好用的工具来获取代码，当然应该果断选择使用坑更少的路。接下来将使用build-tools 工具来拉取代码。</p>
+<h2 id="31-安装-build-tools"><a class="markdownIt-Anchor" href="#31-安装-build-tools"></a> 3.1 安装 build-tools</h2>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#本地安装 build-tools</span></span><br><span class="line">$ npm install @electron/build-tools</span><br></pre></td></tr></table></figure>
+<h2 id="32-设置代理"><a class="markdownIt-Anchor" href="#32-设置代理"></a> 3.2 设置代理</h2>
+<p>Electron本身代码托管于github上，但是Electron依赖 Chromium 源码，需要一个稳定的代理才能获取到源代码（第一次拉取代码大概需要 40G 左右流量）</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">export</span> ALL_PROXY=<span class="string">&quot;代理ip:端口&quot;</span></span><br><span class="line">$ <span class="built_in">export</span> http_proxy=<span class="string">&quot;代理ip:端口&quot;</span></span><br><span class="line">$ <span class="built_in">export</span> https_proxy=<span class="string">&quot;代理ip:端口&quot;</span></span><br><span class="line">$ git config --global http.proxy <span class="string">&quot;代理ip:端口&quot;</span></span><br><span class="line">$ git config --global https.proxy <span class="string">&quot;代理ip:端口&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="33-拉取代码"><a class="markdownIt-Anchor" href="#33-拉取代码"></a> 3.3 拉取代码</h2>
+<p>拉取 Electron 代码使用官方提供的 build-tools 工具，这个工具默认将 GIT_CACHE_PATH 环境变量设置到用户家目录的 .git_cache 目录<a target="_blank" rel="noopener" href="https://github.com/electron/build-tools/blob/main/src/e-init.js#L63">（–&gt; 参考build-tools实现代码）</a>。如果需要将git_cache 缓存放在其他目录，只需要对 <strong>GIT_CACHE_PATH</strong> 进行设置即可。<br />
+使用 git_cache 只要完整获取一次代码后，后续其他版本也可以使用这个缓存，不用每次都要去上游完整拉取代码，大大节约了时间和流量。<br />
+以下提供简单使用方法，更详细参考官方仓库<a target="_blank" rel="noopener" href="https://github.com/electron/build-tools">README</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 第一次使用会去google拉取 depot_tools，需要代理，且需要较长时间</span></span><br><span class="line">$ ./node_modules/.bin/e init release-v19.x.y --root=./Electron_v19.x.y</span><br><span class="line">$ ./node_modules/.bin/e use release-v19.x.y</span><br><span class="line"></span><br><span class="line"><span class="comment"># 由于使用的不是官方仓库，所以这里手动clone支持LoongArch架构的源码，并切换到合适的分支</span></span><br><span class="line"><span class="comment"># 切换到合适的分支后，执行 sync 将会按此分支自动同步源码，并打上补丁</span></span><br><span class="line">$ <span class="built_in">mkdir</span> -pv ./Electron_v19.x.y/src</span><br><span class="line">$ <span class="built_in">pushd</span> Electron_v19.x.y/src</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/loongson/electron.git -b 19-x-y-loongarch64</span><br><span class="line">$ <span class="built_in">popd</span></span><br><span class="line">$ ./node_modules/.bin/e <span class="built_in">sync</span> -vvvv</span><br></pre></td></tr></table></figure>
+<h2 id="34-部分报错及解决方法"><a class="markdownIt-Anchor" href="#34-部分报错及解决方法"></a> 3.4 部分报错及解决方法</h2>
+<ul>
+<li>由于使用环境变量设置代理导致npm安装包报错  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">________ running <span class="string">&#x27;python3 -c import os, subprocess; os.chdir(os.path.join(&quot;src&quot;, &quot;electron&quot;)); subprocess.check_call([&quot;python3&quot;, &quot;script/lib/npx.py&quot;, &quot;yarn@1.15.2&quot;, &quot;install&quot;, &quot;--frozen-lockfile&quot;]);&#x27;</span> <span class="keyword">in</span> <span class="string">&#x27;/home/builduser/Electron_v19.x.y&#x27;</span></span><br><span class="line">npm ERR! code ERR_INVALID_URL</span><br><span class="line">npm ERR! Invalid URL</span><br><span class="line">npm ERR! A complete <span class="built_in">log</span> of this run can be found <span class="keyword">in</span>:</span><br><span class="line">npm ERR!     /home/builduser/.npm/_logs/2022-06-20T09_37_12_695Z-debug-0.log</span><br></pre></td></tr></table></figure>
+解决方法：  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 暂时取消代理，安装完依赖再配置依赖</span></span><br><span class="line">$ <span class="built_in">pushd</span> Electron_v19.x.y/src/electron/</span><br><span class="line">$ <span class="built_in">unset</span> http_proxy</span><br><span class="line">$ <span class="built_in">unset</span> https_proxy</span><br><span class="line">$ python3 script/lib/npx.py yarn@1.15.2 install --frozen-lockfile</span><br><span class="line">$ <span class="built_in">popd</span> </span><br><span class="line"><span class="comment"># 重新设置代理，并重新执行sync获取代码，由于之前下载的代码都缓存到了.git_cache,速度会快很多</span></span><br><span class="line">$ <span class="built_in">export</span> http_proxy=<span class="string">&quot;ip:port&quot;</span></span><br><span class="line">$ <span class="built_in">export</span> https_proxy=<span class="string">&quot;ip:port&quot;</span></span><br><span class="line">$ ./node_modules/.bin/e <span class="built_in">sync</span> -vvvv</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h1 id="4-编译及打包-electron"><a class="markdownIt-Anchor" href="#4-编译及打包-electron"></a> 4. 编译及打包 Electron</h1>
+<p>成功使用docker配置好编译环境并且获取到完整的Electron源码及依赖后，接下来将对源码进行交叉编译。这里需要有几点进行说明：</p>
+<ul>
+<li>Electron中并非使用la64 或者loongarch64作为架构名称，而是 <strong>loong64</strong>，这个是由于v8源码进入上游时决定的。参考：<a target="_blank" rel="noopener" href="https://chromium-review.googlesource.com/c/v8/v8/+/3089095">https://chromium-review.googlesource.com/c/v8/v8/+/3089095</a></li>
+<li>目前暂时没有合适的系统(debian/ubuntu系列)支持上游最新版本的内核，导致 clang/llvm 交叉编译使用的 sysroot 当前还无法通过官方方法制作，所以暂时使用 <a target="_blank" rel="noopener" href="https://github.com/loongson/build-tools">https://github.com/loongson/build-tools</a> 提供的 loongarch64-clfs-system-5.0.tar.bz2 （不局限于这个版本，社区版本系统高速迭代中，尽可能使用最新clfs系统0.0）</li>
+<li>交叉编译使用clang/llvm版本问题，目前 <a target="_blank" rel="noopener" href="https://github.com/loongson/llvm-project">https://github.com/loongson/llvm-project</a> 只提供了 llvm 11，Electron目前使用的版本是 llvm 15, Electron依赖的Chromium在C++新特性方面比较激进,这其中会有部分编译参数不支持和部分语法不支持的情况（类似constexpr相关）。</li>
+</ul>
+<p>虽然有一些小问题，但是这些都是可以解决的，不过出现一些warning是不可避免的-_-。<br />
+接下来把工作目录切换到 Electron_v19.x.y/src 进行一些简单的配置即可开始编译了。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 切换到编译目录</span></span><br><span class="line">$ <span class="built_in">cd</span> Electron_v19.x.y/src</span><br><span class="line"><span class="comment"># 将交叉编译的sysroot下载并解压到合适的位置</span></span><br><span class="line">$ <span class="built_in">pushd</span> build/linux</span><br><span class="line">$ wget  https://github.com/loongson/build-tools/releases/download/2022.05.29/loongarch64-clfs-system-5.0.tar.bz2</span><br><span class="line">$ <span class="built_in">mkdir</span> debian_bullseye_loong64-sysroot &amp;&amp; <span class="built_in">cd</span> debian_bullseye_loong64-sysroot</span><br><span class="line">$ tar -xf ../loongarch64-clfs-system-5.0.tar.bz2</span><br><span class="line">$ <span class="built_in">popd</span></span><br></pre></td></tr></table></figure>
+<p>编译配置electron/build/args/release.gn 如下所示</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cat</span> electron/build/args/release.gn</span><br><span class="line">import(<span class="string">&quot;all.gn&quot;</span>)</span><br><span class="line">is_component_build = <span class="literal">false</span></span><br><span class="line">is_official_build = <span class="literal">false</span></span><br><span class="line">rtc_use_h264 = proprietary_codecs</span><br><span class="line">is_component_ffmpeg = <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Build args for loong64</span></span><br><span class="line">enable_widevine = <span class="literal">false</span></span><br><span class="line">ffmpeg_branding = <span class="string">&quot;Chrome&quot;</span></span><br><span class="line">is_clang = <span class="literal">true</span>         <span class="comment"># 使用clang作为编译器</span></span><br><span class="line">use_sysroot = <span class="literal">true</span>      <span class="comment"># 使用sysroot，否则会使用当前系统环境</span></span><br><span class="line">is_debug = <span class="literal">false</span></span><br><span class="line">use_gold = <span class="literal">false</span>        <span class="comment"># 不支持</span></span><br><span class="line">use_lld = <span class="literal">false</span>         <span class="comment"># 不支持</span></span><br><span class="line"><span class="comment"># 设置clang/llvm的二进制目录，最后的“/” 不能省略（之前编译llvm时设置的安装二进制目录）</span></span><br><span class="line">clang_base_path = <span class="string">&quot;/home/builduser/llvm_install_bin/&quot;</span></span><br><span class="line">clang_use_chrome_plugins = <span class="literal">false</span></span><br><span class="line">proprietary_codecs = <span class="literal">true</span></span><br><span class="line"><span class="comment"># 关闭将warning当作错误显示，clang版本不一致，会出现大量warning</span></span><br><span class="line">treat_warnings_as_errors = <span class="literal">false</span>        </span><br><span class="line">fatal_linker_warnings = <span class="literal">false</span></span><br><span class="line">use_gnome_keyring = <span class="literal">false</span>       <span class="comment"># 这个软件新版本系统中没了</span></span><br><span class="line">host_cpu = <span class="string">&quot;x64&quot;</span>                <span class="comment"># 设置交叉编译参数</span></span><br><span class="line">target_cpu = <span class="string">&quot;loong64&quot;</span>          <span class="comment"># 设置交叉编译参数</span></span><br><span class="line">v8_target_cpu = <span class="string">&quot;loong64&quot;</span>       <span class="comment"># 设置交叉编译参数</span></span><br><span class="line">rtc_use_pipewire = <span class="literal">false</span></span><br><span class="line">dcheck_always_on = <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<p>配置好编译参数后，开始编译</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">export</span> LC_ALL=<span class="string">&quot;C.UTF-8&quot;</span></span><br><span class="line"><span class="comment"># 使用gn生成配置文件</span></span><br><span class="line">$ ./buildtools/linux64/gn gen out/Release --args=<span class="string">&quot;import(\&quot;//electron/build/args/release.gn\&quot;)&quot;</span></span><br><span class="line"><span class="comment"># 编译electron</span></span><br><span class="line">$ ninja -C out/Release/ electron</span><br><span class="line"><span class="comment"># 打包electron，以下5条命令分别是生成 dist.zip, hunspell_dictionaries.zip</span></span><br><span class="line"><span class="comment"># mksnapshot.zip, chromedriver.zip 和 ffmpeg.zip </span></span><br><span class="line">$ ninja -C out/Release/ electron:electron_dist_zip</span><br><span class="line">$ ninja -C out/Release/ electron:hunspell_dictionaries_zip</span><br><span class="line">$ ninja -C out/Release/ electron:electron_mksnapshot_zip</span><br><span class="line">$ ninja -C out/Release/ electron:electron_chromedriver_zip</span><br><span class="line">$ ninja -C out/Release/ electron:electron_ffmpeg_zip</span><br></pre></td></tr></table></figure>
+<p>编译过程到此就结束了，成功得到dist.zip, hunspell_dictionaries.zip，mksnapshot.zip, chromedriver.zip 和 ffmpeg.zip等几个包后，如何使用参考本文的第五部分<strong>Electron仓库制作和使用</strong></p>
+<h1 id="5-测试electron"><a class="markdownIt-Anchor" href="#5-测试electron"></a> 5. 测试Electron</h1>
+<p>交叉编译完成后，到loongarch架构机器中，普通用户（非root用户）目录下创建如下结构形式的目录</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir -pv electron_v19.x.y/out/Release</span><br><span class="line">$ cd electron_v19.x.y &amp;&amp; git clone https://github.com/loongson/electron.git -b 19-x-y-loongarch64</span><br><span class="line">$ tree electron_v19.x.y</span><br><span class="line">electron_v19.x.y/</span><br><span class="line">├── electron</span><br><span class="line">└── out</span><br><span class="line">    └── Release</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>将dist.zip 解压到 electron_v19.x.y/out/Release/ 目录下, 然后进入electron 目录，按照如下方式安装依赖：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 默认系统中的python是python3,安装测试软件</span></span><br><span class="line">$ sudo pip3 install -g python3-dbusmock</span><br><span class="line">$ sudo npm install -g  yarn</span><br><span class="line">$ <span class="built_in">cd</span> electron/spec</span><br><span class="line">$ yarn</span><br><span class="line">$ <span class="built_in">cd</span> ../spec-main/</span><br><span class="line">$ yarn</span><br><span class="line">$ <span class="built_in">cd</span> ..</span><br><span class="line">$ yarn</span><br></pre></td></tr></table></figure>
+<p>由于测试时自动安装的脚本存在一点问题，上面已经手动安装好了测试环境，测试时脚本会需要修改 script/spec-runner.js，需要注释掉安装依赖的两行，参照下面链接 <a target="_blank" rel="noopener" href="https://github.com/electron/electron/issues/22432#issuecomment-593000264">https://github.com/electron/electron/issues/22432#issuecomment-593000264</a><br />
+去掉 installSpecModules 函数处理 spec 和 spec-main 目录的依赖安装。也就是上面手动进入到 spec和spec-main 里面执行yarn命令。</p>
+<p>接下来是运行测试程序：<br />
+需要接入屏幕，远程通过ssh会 <strong>“[13035:1230/101247.042264:FATAL:ozone_platform_x11.cc(238)] Check failed: x11::Connection::Get()-&gt;Ready(). Missing X server or $DISPLAY”</strong> 报没有 X server</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">export</span> ELECTRON_SKIP_NATIVE_MODULE_TESTS=<span class="literal">true</span></span><br><span class="line">$ npm run <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
+<p>设置 ELECTRON_SKIP_NATIVE_MODULE_TESTS 环境变量参考配置CI测试的 arm 架构 .circleci/build_config.yml 第1126 行，此环境变量可以跳过部分导致软件crash的测试项。</p>
+<p>linux 中由于屏幕缩放问题导致较多测试不通过，不过并不影响使用。<br />
+由于浮点数精度误差，某些依赖于精确像素测量的测试可能无法正常在Hi-DPI屏幕的设备上工作。 为了使这些测试能正常运行，请确保设备的缩放比为100%。<br />
+参考：<a target="_blank" rel="noopener" href="https://www.electronjs.org/zh/docs/latest/development/testing#pixel-measurements">https://www.electronjs.org/zh/docs/latest/development/testing#pixel-measurements</a></p>
+<h1 id="6-electron仓库制作和使用"><a class="markdownIt-Anchor" href="#6-electron仓库制作和使用"></a> 6. Electron仓库制作和使用</h1>
+<p>通过上述方法编译完成Electron得到一堆zip包，而安装这些包需要一个还需要一点小小的配置。</p>
+<ul>
+<li>需要一个存放Electron的zip包的仓库</li>
+<li>需要在安装的机器上设置一些环境变量来指向我们自己的仓库</li>
+</ul>
+<h2 id="61-制作一个electron二进制仓库"><a class="markdownIt-Anchor" href="#61-制作一个electron二进制仓库"></a> 6.1 制作一个Electron二进制仓库</h2>
+<p>在交叉编译的src目录下执行如下脚本，即可在out/目录下得到一个v19.0.6的文件夹。实际上只是重命名了生成的包，然后生成sha256sum</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 重命名生成的zip包，并生成文件哈希</span></span><br><span class="line"><span class="built_in">set</span> -e</span><br><span class="line"><span class="built_in">set</span> -x</span><br><span class="line"></span><br><span class="line">ELECTRON_VERSION=`<span class="built_in">cat</span> out/Release/version`</span><br><span class="line"></span><br><span class="line"><span class="built_in">rm</span> -rvf out/v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span></span><br><span class="line"><span class="built_in">mkdir</span> -pv out/v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">mv</span> out/Release/dist.zip         out/v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span>/electron-v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span>-linux-loong64.zip</span><br><span class="line"><span class="built_in">mv</span> out/Release/chromedriver.zip out/v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span>/chromedriver-v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span>-linux-loong64.zip</span><br><span class="line"><span class="built_in">mv</span> out/Release/ffmpeg.zip       out/v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span>/ffmpeg-v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span>-linux-loong64.zip</span><br><span class="line"><span class="built_in">mv</span> out/Release/mksnapshot.zip   out/v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span>/mksnapshot-v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span>-linux-loong64.zip</span><br><span class="line"><span class="built_in">mv</span> out/Release/hunspell_dictionaries.zip   out/v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span>/</span><br><span class="line"><span class="built_in">cp</span> electron/electron.d.ts       out/v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span>/</span><br><span class="line"><span class="built_in">cp</span> electron/electron-api.json   out/v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span>/</span><br><span class="line"></span><br><span class="line"><span class="built_in">pushd</span> out/v<span class="variable">$&#123;ELECTRON_VERSION&#125;</span></span><br><span class="line">    <span class="built_in">sha256sum</span> * &gt; SHASUMS256.txt</span><br><span class="line">    sed -i <span class="string">&#x27;s/  / */g&#x27;</span> SHASUMS256.txt</span><br><span class="line"><span class="built_in">popd</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>执行完上面的脚本后，将out/目录下得到的v19.0.6文件夹放到一个http服务器上即可参照下面的配置进行安装了。<br />
+也可以按照 <a target="_blank" rel="noopener" href="https://registry.npmmirror.com/binary.html?path=electron/&amp;spm=a2c6h.24755359.0.0.6d444dcchV4p85">https://registry.npmmirror.com/binary.html?path=electron/&amp;spm=a2c6h.24755359.0.0.6d444dcchV4p85</a> 镜像仓库的结构制作即可</p>
+<h2 id="62-安装方法"><a class="markdownIt-Anchor" href="#62-安装方法"></a> 6.2 安装方法</h2>
+<p>安装自己的Electron需要设置两个变量</p>
+<ul>
+<li><strong>ELECTRON_MIRROR</strong>： 用于指向存放二进制zip包的地址目录，最后的“/”不能去掉</li>
+<li><strong>electron_use_remote_checksums</strong>：配置使用远程的 SHASUMS256.txt 进行校验还是使用npm包中自带的进行校验（由于npm包中自带的只有官方包的哈希值，自己搭建的镜像中只能使用远程SHASUMS256.txt进行校验），该环境变量是Electron v15开始引入。</li>
+</ul>
+<h3 id="621-不设置环境变量进行安装"><a class="markdownIt-Anchor" href="#621-不设置环境变量进行安装"></a> 6.2.1 不设置环境变量进行安装</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 全局安装</span></span><br><span class="line">$ sudo electron_use_remote_checksums=1 ELECTRON_MIRROR=http://xxx.xxx/xxx/ npm install -g electron@19.0.6</span><br><span class="line"></span><br><span class="line"><span class="comment"># 非全局安装</span></span><br><span class="line">$ electron_use_remote_checksums=1 ELECTRON_MIRROR=http://xxx.xxx/xxx/ npm install electron@19.0.6</span><br></pre></td></tr></table></figure>
+<h3 id="622-设置环境变量进行安装"><a class="markdownIt-Anchor" href="#622-设置环境变量进行安装"></a> 6.2.2 设置环境变量进行安装</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">export</span> ELECTRON_MIRROR=http://xxx.xxx/xxx/</span><br><span class="line">$ <span class="built_in">export</span> electron_use_remote_checksums=1</span><br><span class="line">$ npm install electron@19.0.6      //非全局安装</span><br></pre></td></tr></table></figure>
+<h2 id="63-electron使用"><a class="markdownIt-Anchor" href="#63-electron使用"></a> 6.3 Electron使用</h2>
+<p>参照官方文档: <a target="_blank" rel="noopener" href="https://www.electronjs.org/zh/docs/latest/">https://www.electronjs.org/zh/docs/latest/</a></p>
+
+      
+    </div>
+    <div class="article-footer">
+      <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="http://example.com/2022/06/21/cross-build-Electron-for-LoongArch/" title="交叉编译LoongArch架构下的Electron" target="_blank" rel="external">http://example.com/2022/06/21/cross-build-Electron-for-LoongArch/</a>
+    </li>
+    
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+</blockquote>
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/Xiao-Tao" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/avatar.jpeg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/Xiao-Tao" target="_blank"><span class="text-dark">mingtaoxt</span><small class="ml-1x">系统开发</small></a></h3>
+        <div>个人简介。</div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+
+    </div>
+  </article>
+  
+</div>
+
+  
+
+   
+</main>
+
+  <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+	
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/Xiao-Tao" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+        <li><a href="http://weibo.com/Xiao-Tao" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+        
+        <li><a href="https://twitter.com/iwebued" target="_blank" title="Twitter" data-toggle=tooltip data-placement=top><i class="icon icon-twitter"></i></a></li>
+        
+        <li><a href="https://www.behance.net/Xiao-Tao" target="_blank" title="Behance" data-toggle=tooltip data-placement=top><i class="icon icon-behance"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
+
+    <div class="copyright">
+    	
+        <div class="publishby">
+        	Theme by <a href="https://github.com/cofess" target="_blank"> cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
+        </div>
+    </div>
+</footer>
+  <script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script>
+window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+
+<script src="/js/plugin.min.js"></script>
+
+
+<script src="/js/application.js"></script>
+
+
+    <script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+
+
+
+
+   
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
